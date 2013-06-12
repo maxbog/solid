@@ -1,0 +1,14 @@
+<phpunit bootstrap="phpunit.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="true"
+         printerClass="PHPUnit_Util_TestDox_ResultPrinter_Text">
+
+    <testsuites>
+        <testsuite name="Solid">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
